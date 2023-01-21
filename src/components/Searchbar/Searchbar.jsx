@@ -29,7 +29,7 @@ export const Searchbar = ({ onSubmit }) => {
             autoComplete="off"
             autoFocus
             placeholder="Search images and photos"
-            value={this.state.value}
+            value={value}
           />
         </form>
       </header>
